@@ -46,7 +46,7 @@ function toggleStatus(index){
            </div> :   
         
                 getFilteredTasks().map((task, index) => (
-                    <div className="showTasks"  key={index}>
+                    <div className="showTasks"  >
                         <div className="task">
                             <h3>{task.title}</h3>
                             <p>{task.description}</p>

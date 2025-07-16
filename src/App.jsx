@@ -35,7 +35,6 @@ const [editIndex, setEditIndex] = useState(null);
     }
     setTitle(updatedTasks[index].title);
     setDescription(updatedTasks[index].description);
-    
   }
   return (
     <div className="body">
